@@ -32,6 +32,7 @@ def print_all(houses):
 			s = f'{key:>20} {value:30}'
 			print(s)
 			f.write(s+'\n')
+	f.close()
 	
 
 webpage = lambda i: f'https://www.smart-wonen.nl/en/page/{i}/?unonce=cf07b3c728&uformid=1927&s=uwpsfsearchtrg&taxo%5B0%5D%5Bname%5D=plaats&taxo%5B0%5D%5Bopt%5D&taxo%5B0%5D%5Bterm%5D=enschede&taxo%5B1%5D%5Bname%5D=type-woning&taxo%5B1%5D%5Bopt%5D&taxo%5B1%5D%5Bterm%5D=room&taxo%5B2%5D%5Bname%5D=oplevering-interieur&taxo%5B2%5D%5Bopt%5D&taxo%5B2%5D%5Bterm%5D=uwpqsftaxoall&taxo%5B3%5D%5Bname%5D=aantal-kamer&taxo%5B3%5D%5Bopt%5D&taxo%5B3%5D%5Bterm%5D=1&cmf%5B0%5D%5Bmetakey%5D=prijs&cmf%5B0%5D%5Bcompare%5D=4&cmf%5B0%5D%5Bvalue%5D=uwpqsfcmfall&cmf%5B1%5D%5Bmetakey%5D=prijs&cmf%5B1%5D%5Bcompare%5D=6&cmf%5B1%5D%5Bvalue%5D=+500&skeyword'
